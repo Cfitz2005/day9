@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href=" https://cfitz2005.github.io/day8/day8.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carter'f Form</title>
+
+</head>
+
+<body>
+    <style>
+        body {
+background-color: rgb(255, 155, 155);
+}
+
+</style>
+<h1 id="header1">Carter Fitzner's Form</h1>
+
+<form action="mailto:W0468735@campus.nscc.ca?subject=From%20our%20Website" 
+method="post" enctype="text/plain">
+
+  <br>  
+  
+    E-mail:<br>
+    <input type="email" name="mail" required="required"><br><br>
+    Postal Code:<br>
+    <input type="postal code" name="postal code" required="required" minlength="5" maxlength="5"><br><br>
+    Your first and Last Name:<br>
+    <input type="text" name="YourAge" minlength="4" required="required" size="50"><br><br>
+    Your City:<br>
+    <input type="text" name="YourAge" minlength="2" required="required" size="50"><br><br>
+    <label for="TDate">Today's Date:</label>
+    <input type="date" id="TDate" name="TDate" required="required">
+    <br>
+    <br>
+    <label for="TDate">Phone Number:</label><br>
+    <input type="Phone Number" id="Phone Number" name="Phone Number" minlength="10" required="required">
+<br>
+<br>
+<label for="datemin">Enter Your Birthday:</label>
+<input type="date" id="datemin" name="datemin" min="2005-01-01" required="required">
+<br>
+<br>
+
+<label for="Province">Province</label>
+<select id="Province" name="Province">
+  <option value="PEI">PEI</option>
+  <option value="Nova Scotia">Nova Scotia</option>
+  <option value="Alberta">Alberta</option>
+  <option value="australia">Ontario</option>
+  <option value="Quebeq">Quebeq</option>
+  <option value="Manitoba">Manitoba</option>
+  <option value="Saskatchewan">Saskatchewan</option>
+  <option value="BC">British Columbia</option>
+  <option value="New Brunswick">New Brunswick</option>
+  <option value="Northwest territories">Northwest territories</option>
+  <option value="Yukon">Yukon</option>
+  <option value="Nunuvut">Nunuvut</option>
+  <option value="Yukon">Newfoundland and labrador</option>
+  
+  <input type="color" name="color" id="color">
+</select>
+<br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+</form>
+</form>
+</body>
+</html>
